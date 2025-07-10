@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="Современное приложение для управления заметками с поддержкой тегов, поиска и локального хранения" />
+		<meta name="keywords" content="заметки, notes, приложение, теги, поиск, SvelteKit, TypeScript" />
+		<meta name="author" content="Notes App" />
+		
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://notes-app.local/" />
+		<meta property="og:title" content="Notes App - Ваши заметки" />
+		<meta property="og:description" content="Современное приложение для управления заметками с поддержкой тегов, поиска и локального хранения" />
+		<meta property="og:image" content="/og-image.png" />
+
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://notes-app.local/" />
+		<meta property="twitter:title" content="Notes App - Ваши заметки" />
+		<meta property="twitter:description" content="Современное приложение для управления заметками с поддержкой тегов, поиска и локального хранения" />
+		<meta property="twitter:image" content="/og-image.png" />
+
+		<!-- Favicon -->
+		<link rel="icon" href="/favicon.ico" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+		<link rel="manifest" href="/manifest.json" />
+		
+		<!-- Theme -->
+		<meta name="theme-color" content="#3b82f6" />
+		<meta name="color-scheme" content="light" />
+		
+		<!-- Preconnect for performance -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover" class="bg-gray-50">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>
